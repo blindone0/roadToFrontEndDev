@@ -58,7 +58,6 @@
   }
 
   header {
-      background-color: black;
       position: fixed;
       top: 0;
       left: 0;
@@ -97,3 +96,36 @@
     opacity: .75;
 }
 
+.intro {
+    height: 100vh;
+    background: url(../img/intro-bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 263px;
+}
+
+.intro__title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    max-width: 619px;
+    margin-bottom: 22px;
+}
+
+.intro__subtitle {
+    max-width: 546px;
+    color: white;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 59px;
+}
+
+.search-form__info {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.search-form__field {
+
+}
