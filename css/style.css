@@ -166,6 +166,10 @@
     background: #0e66da;
 }
 
+.benefits {
+    margin-bottom: 131px;
+}
+
 .benefits__wrap {
     max-width: 1262px;
     background-color: #fff;
@@ -198,6 +202,7 @@
 
 .benefits__card {
     grid-column: span 1;
+    margin-bottom: 112px;
 }
 
 .benefits__card-pic {
@@ -231,6 +236,12 @@
     line-height: 24px;
     color: #006DFE;
     text-decoration: none;
+    background: url(../img/svg/arrow-right-ico.svg) no-repeat 95% center;
+    transition: .2s all;
+}
+
+.benefits__card-more:hover, .benefits__card-more:focus {
+    background: url(../img/svg/arrow-right-ico.svg) no-repeat right center;
 }
 
 
